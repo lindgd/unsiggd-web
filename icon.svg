@@ -1,0 +1,39 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Unsiggd app-ikon: strekkode der én strek er en sigarett. -->
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="80%">
+      <stop offset="0%" stop-color="#D91F3D"/>
+      <stop offset="100%" stop-color="#A50D24"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+
+  <!-- Strekkode (hvite streker) -->
+  <g fill="#FFFFFF">
+    <rect x="232" y="300" width="40" height="424" rx="12"/>
+    <rect x="300" y="300" width="24" height="424" rx="12"/>
+    <rect x="352" y="300" width="56" height="424" rx="12"/>
+    <rect x="436" y="300" width="24" height="424" rx="12"/>
+    <rect x="576" y="300" width="24" height="424" rx="12"/>
+    <rect x="628" y="300" width="56" height="424" rx="12"/>
+    <rect x="712" y="300" width="24" height="424" rx="12"/>
+    <rect x="764" y="300" width="40" height="424" rx="12"/>
+  </g>
+
+  <!-- Sigaretten – den "manglende" streken i koden -->
+  <g>
+    <!-- glo -->
+    <rect x="476" y="196" width="72" height="52" rx="16" fill="#F4772E"/>
+    <!-- papir -->
+    <rect x="476" y="238" width="72" height="402" fill="#FFFFFF"/>
+    <!-- gullbånd -->
+    <rect x="476" y="640" width="72" height="20" fill="#C97F1F"/>
+    <!-- filter -->
+    <path d="M476 660 h72 v124 a16 16 0 0 1 -16 16 h-40 a16 16 0 0 1 -16 -16 z" fill="#E9A13B"/>
+  </g>
+
+  <!-- Røyk -->
+  <path d="M512 168 C 512 132, 476 124, 482 88 C 486 62, 516 56, 522 28"
+        fill="none" stroke="#FFD9C7" stroke-width="22" stroke-linecap="round" opacity="0.9"/>
+</svg>
